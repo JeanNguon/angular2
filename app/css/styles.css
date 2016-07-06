@@ -9,6 +9,7 @@ body {
 }
 
 =======
+<<<<<<< HEAD
 h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
@@ -18,4 +19,15 @@ body {
   margin: 2em;
 }
 
+=======
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+body {
+  margin: 2em;
+}
+
+>>>>>>> 2b227f94838420c52876bc3f1936555466e30a1f
 >>>>>>> 7896028cf72e47f56bea8709ebc6b68417b0651a
