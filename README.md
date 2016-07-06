@@ -1,9 +1,9 @@
 # angular2
 Migration of a Silverlight application to Angular2
 
-npm install: gets the dependencies
+npm install - gets the dependencies
 
-npm run typings install: if typings folder doesn't show up after npm install
+npm run typings install - if typings folder doesn't show up after npm install
 
 
 npm start - runs the compiler and a server at the same time, both in "watch mode"
