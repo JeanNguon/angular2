@@ -1,0 +1,49 @@
+<!Doctype html>
+<head>
+  <title>Migration Silverlight to Angular2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="app/css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- 1. Load libraries -->
+  <!-- Polyfill(s) for older browsers -->
+  <!-- ES5/ ES6 -->
+  <script src="node_modules/core-js/client/shim.min.js"></script>
+  <script src="node_modules/zone.js/dist/zone.js"></script>
+  <script src="node_modules/reflect-metadata/Reflect.js"></script>
+  <!-- for module loading -->
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+
+  <!-- 2. Configure SystemJS -->
+  <script src="systemjs.config.js"></script>
+  <script>
+    System.import('app').catch(function(err){ console.error(err); });
+  </script>
+</head>
+
+
+<!-- 3. Display the application -->
+<body>
+  <header>
+    <header-nav></header-nav>
+  </header>
+  <main>
+    <section>
+      <section-breadcrumb>test</section-breadcrumb>
+    </section>
+    <section>
+      <section-title>test1</section-title>
+      <my-app>Loading...</my-app>
+      <aside class="col-xs-12 col-sm-6 col-md-8">
+        <research-menu>test2</research-menu>
+      </aside>
+      <article class="col-xs-6 col-sm-4">
+        <article-onglets class="col-md-12">test 3</article-onglets>
+        <article-menu class="col-md-4">test 4</article-menu>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
